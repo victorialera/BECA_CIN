@@ -1,0 +1,3 @@
+function [eje_temporal_ventanas_promediadas]=Eje_temporal_ventanas_promediadas(long_ventana_segundos,numero_ventanas)
+
+eje_temporal_ventanas_promediadas=long_ventana_segundos:long_ventana_segundos:numero_ventanas*long_ventana_segundos;
